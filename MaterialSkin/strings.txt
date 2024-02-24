@@ -84,7 +84,7 @@ PLUGIN_MATERIAL_SKIN_CONDUCTOR_GENRES_DESC
 
 PLUGIN_MATERIAL_SKIN_DEFAULT_COMPOSER_GENRES
 	CS	Klasika, Avantgarda, Baroko, Komorní hudba, Zpěv, Sbor, Klasický crossover, Raná hudba, Vrcholná klasika, Impresionismus, Jazz, Středověk, Minimalismus, Moderní kompozice, Opera, Orchestr, Renesance, Romantika, Symfonie, Svatební hudba, Classical, Avant-Garde, Baroque, Chamber Music, Chant, Choral, Classical Crossover, Early Music, High Classical, Impressionist, Jazz, Medieval, Minimalism, Modern Composition, Opera, Orchestral, Renaissance, Romantic, Symphony, Wedding Music, Symphonies
-	DE	Klassik, Avantgarde, Barok, Kammermusik, Choral, Klassik-Crossover, Hochklassik, Impressionist, Jazz, Mittelalterlich, Medieval, Minimalismus, Moderne Komposition, Oper, Orchester, Renaissance, Romantik, Symphonie, Hochzeitsmusik
+	DE	Klassik, Avantgarde, Barock, Kammermusik, Choral, Klassik-Crossover, Hochklassik, Impressionist, Jazz, Mittelalterlich, Medieval, Minimalismus, Moderne Komposition, Oper, Orchester, Renaissance, Romantik, Symphonie, Hochzeitsmusik
 	EN	Classical, Avant-Garde, Baroque, Chamber Music, Chant, Choral, Classical Crossover, Early Music, High Classical, Impressionist, Jazz, Medieval, Minimalism, Modern Composition, Opera, Orchestral, Renaissance, Romantic, Symphony, Wedding Music, Symphonies
 	FR	Jazz, Musique de film, Classique, Musique concertante, Musique de chambre, Musique symphonique, Musique vocale, Opéra, Opérette, Musique de l'Antiquité, Musique du Moyen-Age, Musique de la Renaissance, Musique baroque, Musique classique, Musique romantique, Musique moderne, Musique contemporaine, Musique électronique ou concrète
 	NL	Klassiek, Avant-Garde, Barok, Kamermuziek, Zang, Koor, Klassieke Crossover, Oude muziek, Hoogklassiek, Impressionistisch, Jazz, Middeleeuws, Minimalisme, Moderne compositie, Opera, Orkest, Renaissance, Romantisch, Symfonie, Bruiloftsmuziek
@@ -93,7 +93,7 @@ PLUGIN_MATERIAL_SKIN_DEFAULT_COMPOSER_GENRES
 
 PLUGIN_MATERIAL_SKIN_DEFAULT_CONDUCTOR_GENRES
 	CS	Klasika, Avantgarda, Baroko, Komorní hudba, Zpěv, Sbor, Klasický crossover, Raná hudba, Vrcholná klasika, Impresionismus, Středověk, Minimalismus, Moderní kompozice, Opera, Orchestr, Renesance, Romantika, Symfonie, Svatební hudba, Classical, Avant-Garde, Baroque, Chamber Music, Chant, Choral, Classical Crossover, Early Music, High Classical, Impressionist, Medieval, Minimalism, Modern Composition, Opera, Orchestral, Renaissance, Romantic, Symphony, Wedding Music, Symphonies
-	DE	Klassik, Avantgarde, Barok, Kammermusik, Choral, Klassik-Crossover, Hochklassik, Impressionist, Mittelalterlich, Minimalismus, Moderne Komposition, Oper, Orchester, Renaissance, Romantik, Symphonie, Hochzeitsmusik
+	DE	Klassik, Avantgarde, Barock, Kammermusik, Choral, Klassik-Crossover, Hochklassik, Impressionist, Mittelalterlich, Minimalismus, Moderne Komposition, Oper, Orchester, Renaissance, Romantik, Symphonie, Hochzeitsmusik
 	EN	Classical, Avant-Garde, Baroque, Chamber Music, Chant, Choral, Classical Crossover, Early Music, High Classical, Impressionist, Medieval, Minimalism, Modern Composition, Opera, Orchestral, Renaissance, Romantic, Symphony, Wedding Music, Symphonies
 	FR	Musique de film, Classique, Musique concertante, Musique de chambre, Musique symphonique, Musique vocale, Opéra, Opérette, Musique de l'Antiquité, Musique du Moyen-Age, Musique de la Renaissance, Musique baroque, Musique classique, Musique romantique, Musique moderne, Musique contemporaine, Musique électronique ou concrète
 	NL	Klassiek, Avant-Garde, Barok, Kamermuziek, Zang, Koor, Klassieke Crossover, Oude muziek, Hoogklassiek, Impressionistisch, Jazz, Middeleeuws, Minimalisme, Moderne compositie, Opera, Orkest, Renaissance, Romantisch, Symfonie, Bruiloftsmuziek
@@ -375,7 +375,7 @@ PLUGIN_MATERIAL_SKIN_PAGED_BATCH_SIZE
 
 PLUGIN_MATERIAL_SKIN_PAGED_BATCH_SIZE_DESC
 	CS	Počet počátečních položek, které se načtou (a zobrazí) při výpisu obsahu některých seznamů (například obsahu seznamu skladeb). Posouvání seznamu pak způsobí načtení další dávky položek atd.
-	DE	Anzahl der anfänglichen Elemente, die beim Auflisten des Inhalts einiger Listen (wie beispielsweise der Inhalte einer Wiedergabeliste) abgerufen und angezeigt werden sollen. Durch das Scrollen in der Liste werden dann weitere Elemente abgerufen, usw.
+	DE	Anzahl der Elemente, die beim Aufruf bestimmter Listen (beispielsweise Wiedergabelisten) zuerst abgerufen und angezeigt werden sollen. Durch das Scrollen der Liste werden dann weitere Elemente abgerufen, usw. 
 	EN	Number of initial items to fetch (and display) when listing contents of some lists (such as playlist contents). Scrolling list will then cause another batch of items to be fetched, etc.
 	FR	Nombre d'éléments initiaux récupérés (et affichés) lors de l'affichage de certaines listes (telles que les listes de lecture). Faire défiler la liste permettra de récupérer un nouvel ensemble d’éléments si nécessaire.
 	NL	Aantal initiële items dat wordt opgehaald (en getoond) bij het weergeven van de inhoud van sommige lijsten (zoals afspeellijsten). Als je door de lijst bladert, wordt er vervolgens een nieuwe reeks items opgehaald, enz.
@@ -486,7 +486,8 @@ PLUGIN_MATERIAL_SKIN_PLAY_SHUFFLE_DESC
 	ZH_CN	添加专辑或播放列表并开启随机播放模式。启用此功能并使用“随机播放”时，播放器将在播放项目之前设置为“随机播放曲目”。同样，如果启用此选项并使用“立即播放”，则在播放项目之前禁用随机播放。请注意，播放队列被清除后，播放器的随机播放模式不会恢复。
 
 PLUGIN_MATERIAL_SKIN_LOAD_DEFAULT_GENRES_DESC
-	EN	These genre lists are saved in your settings file, and will not automatically be updated should you change language. You may use the "Set Genres To Default" button (below) to reset each list to the default values, translated into the current language.
+DE	Diese Liste von Stilrichtungen wird unter Einstellungen gespeichert. Sie wird beim Wechsel der Sprache nicht automatisch aktualisiert. Benutzen Sie "Genres auf Standard setzen" (unten), um jede Liste auf die Standardwerte in der gewählten Sprache zurückzusetzen.
+EN	These genre lists are saved in your settings file, and will not automatically be updated should you change language. You may use the "Set Genres To Default" button (below) to reset each list to the default values, translated into the current language.
 	FR	Ces listes de genres sont enregistrées dans votre fichier de paramètres et ne seront pas automatiquement mises à jour si vous changez de langue. Vous pouvez utiliser le bouton "Restaurer les genres par défaut" (ci-dessous) pour réinitialiser chaque liste aux valeurs par défaut, traduites dans la langue actuelle.
 	NL	Deze genres worden opgeslagen in jouw instellingen en worden niet automatisch bijgewerkt als je van taal verandert. Je kan de knop "Herstel standaard genres" (hieronder) gebruiken om elke lijst terug te zetten naar de standaardwaarden, vertaald in de huidige taal.
 	ZH_CN	这些流派列表保存在您的设置文件中，且不会随着您更改语言自动更新。您可以使用“将流派设为默认值”按钮（如下）将每个列表重置为默认值（翻译成当前语言）。
